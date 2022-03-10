@@ -192,6 +192,18 @@ button,
   margin-bottom: 5px;
 }
 
+.header__menu {
+  background: white;
+  padding: 1.625rem;
+}
+
+.header__menu a {
+  display: block;
+  padding: 0.625rem;
+  color: #2d314d;
+  text-align: center;
+}
+
 .header__links a {
   position: relative;
   font-size: 0.875rem;
