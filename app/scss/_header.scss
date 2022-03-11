@@ -28,7 +28,8 @@
   }
 
   nav {
-    padding: 1.0625rem 1.5rem; // each divided by 16px to be rem
+    padding-top: 1.0625rem;
+    padding-bottom: 1.0625rem;
   }
 
   &__logo {
@@ -56,8 +57,14 @@
   }
 
   &__menu {
+    position: absolute;
+    width: calc(100% - 3rem);
+    left: 50%;
+    transform: translateX(-50%);
     background: $white;
+    margin-top: 1.5rem;
     padding: 1.625rem;
+    border-radius: 5px;
 
     a {
       display: block;
