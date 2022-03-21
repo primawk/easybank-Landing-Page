@@ -17,7 +17,7 @@ body {
   font-weight: 300;
   color: $grayishBlue;
   line-height: 1.3;
-  // min-height: 300vh;
+  // min-height: 300vh; // to cut extra space below the footer
   overflow-x: hidden; // cut out extra content that exceed view port
 
   @include breakpoints-up(large) {
